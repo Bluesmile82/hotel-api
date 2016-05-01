@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-
+ruby '2.3.0'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
 gem "annotate",            "2.6.10"
 gem "awesome_print",          "1.6.1"
 gem "pg",                     "0.18.2"
